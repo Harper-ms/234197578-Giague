@@ -1,10 +1,10 @@
-style
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
 .container {
     width: 80%;
     margin: auto;
@@ -12,23 +12,70 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 h1, h2 {
+    font-family: 'Montserrat', sans-serif; 
     color: #333;
 }
+
 .header, .section {
     margin-bottom: 20px;
 }
+
 .header {
     text-align: center;
 }
+
 .contact-info {
     text-align: center;
 }
+
 .contact-info p {
     margin: 5px 0;
 }
+
 .section {
     padding: 10px;
     background: #e2e2e2;
     border-radius: 5px;
 }
+
+.cta-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 15px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.cta-button:hover {
+    background-color: #45a049; 
+}
+
+.hero {
+    background-image: url('hero-image.jpg'); 
+    height: 400px; 
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    text-align: center; 
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /
+    padding: 20px; 
+    border-radius: 10px; 
