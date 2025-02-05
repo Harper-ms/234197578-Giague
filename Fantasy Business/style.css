@@ -5,6 +5,53 @@ body {
     background-color: #f4f4f4;
 }
 
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hero {
+    background-image: url('LOGO.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -18,12 +65,11 @@ h1, h2 {
     color: #333;
 }
 
-.header, .section {
+.section {
     margin-bottom: 20px;
-}
-
-.header {
-    text-align: center;
+    padding: 10px;
+    background: #e2e2e2;
+    border-radius: 5px;
 }
 
 .contact-info {
@@ -32,17 +78,6 @@ h1, h2 {
 
 .contact-info p {
     margin: 5px 0;
-}
-
-.section {
-    padding: 10px;
-    background: #e2e2e2;
-    border-radius: 5px;
-}
-
-.cta-container {
-    text-align: center;
-    margin-top: 20px;
 }
 
 .cta-button {
@@ -56,26 +91,48 @@ h1, h2 {
     font-size: 16px; 
     border-radius: 5px; 
     cursor: pointer; 
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s ease; 
 }
 
 .cta-button:hover {
     background-color: #45a049; 
 }
 
-.hero {
-    background-image: url('hero-image.jpg'); 
-    height: 400px; 
-    background-size: cover; 
-    background-position: center; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    color: white; 
-    text-align: center; 
+
+@media (max-width: 768px) {
+    .navbar li {
+        float: none; 
+    }
+
+    .container {
+        width: 95%; 
+    }
+
+    .hero {
+        height: 70vh; 
+    }
+
+    .hero-text {
+        padding: 15px;
+    }
+
+    .cta-button {
+        padding: 10px 15px; 
+        font-size: 14px; 
+    }
 }
 
-.hero-text {
-    background-color: rgba(0, 0, 0, 0.5); /
-    padding: 20px; 
-    border-radius: 10px; 
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; 
+        color: white;
+    }
+
+    h2 {
+        font-size: 20px; 
+    }
+
+    .cta-button {
+        width: 100%; 
+    }
+}
