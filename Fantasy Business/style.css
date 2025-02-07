@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Roboto', sans-serif; 
     margin: 0;
@@ -7,7 +7,7 @@ body {
     padding-top: 60px; 
 }
 
-/* Navbar Styles */
+
 .navbar {
     position: fixed; 
     top: 0; 
@@ -27,7 +27,7 @@ body {
 
 .navbar li {
     float: left;
-    margin: 0 20px; /* Added margin for spacing */
+    margin: 0 20px;
 }
 
 .navbar a {
@@ -45,7 +45,7 @@ body {
     color: white;
 }
 
-/* Hero Section Styles */
+
 .hero {
     background-image: url('LOGO.png'); 
     background-size: cover;
@@ -68,7 +68,7 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Container Styles */
+
 .container {
     display: grid; 
     grid-template-columns: 1fr; 
@@ -81,23 +81,24 @@ body {
     border-radius: 10px;
 }
 
-/* Section Styles */
+
 .section {
-    padding: 10px;
+    padding: 20px; 
     background: #E6E6FA; 
-    border-radius: 5px;
+    border-radius: 5px; 
     border-left: 5px solid #4B0082; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
 }
 
-/* Heading Styles */
+
 h1, h2 {
     font-family: 'Montserrat', sans-serif; 
     color: #4B0082; 
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact Info Styles */
+
 .contact-info {
     text-align: center;
 }
@@ -107,7 +108,6 @@ h1, h2 {
     color: #333; 
 }
 
-/* Call to Action Button Styles */
 .cta-button {
     background-color: #FF4500; 
     color: white; 
@@ -127,7 +127,7 @@ h1, h2 {
     background-color: #FF6347; 
 }
 
-/* Modal Styles */
+
 .modal {
     display: none; 
     position: fixed; 
@@ -164,7 +164,7 @@ h1, h2 {
     cursor: pointer;
 }
 
-/* Form Styles */
+
 label {
     display: block;
     margin: 10px 0 5px;
@@ -196,7 +196,7 @@ input, select {
     background-color: #45a049; 
 }
 
-/* Media Queries */
+
 @media (max-width: 1024px) {
     .container {
         width: 90%; 
