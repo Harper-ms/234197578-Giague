@@ -27,6 +27,7 @@ body {
 
 .navbar li {
     float: left;
+    margin: 0 20px; /* Added margin for spacing */
 }
 
 .navbar a {
@@ -80,6 +81,7 @@ body {
     border-radius: 10px;
 }
 
+/* Section Styles */
 .section {
     padding: 10px;
     background: #E6E6FA; 
@@ -88,13 +90,14 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Typography Styles */
+/* Heading Styles */
 h1, h2 {
     font-family: 'Montserrat', sans-serif; 
     color: #4B0082; 
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+/* Contact Info Styles */
 .contact-info {
     text-align: center;
 }
@@ -104,7 +107,7 @@ h1, h2 {
     color: #333; 
 }
 
-/* Button Styles */
+/* Call to Action Button Styles */
 .cta-button {
     background-color: #FF4500; 
     color: white; 
@@ -272,20 +275,4 @@ input, select {
     .contact-info p {
         font-size: 14px; 
     }
-}
-
-/* Navigation Styles */
-nav ul li {
-    margin: 10px 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #f39c12;
 }
